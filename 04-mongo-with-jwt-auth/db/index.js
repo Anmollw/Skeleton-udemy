@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const { string } = require('zod');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://anmolwadhwa2006:Hu4N2AejuUh7A82Z@nmol.kfxng.mongodb.net/course_selling_appJWT');
+mongoose.connect('db url here');
 
 // Define schemas
 const AdminSchema = new mongoose.Schema({
